@@ -1,6 +1,11 @@
 
-
-
+html { scroll-behavior: smooth;}
+body {
+    background-color: rgb(0, 100, 95);
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
 .img {
         display:inline-block;
         position:relative;
@@ -16,11 +21,13 @@
 
 .card {
     position: relative;
+    display: inline-block;
     width: 320px;
     height: 450px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.116);
+    margin-left: 20%;
 }
 .card .poster {
     position: relative;
@@ -46,4 +53,54 @@ z-index: 1;
 }
 .card .poster img { 
     width: 100%;
-    transition: 0.5s;}
+    transition: 0.5s;
+    float: left;}
+  
+.card2 {
+position: relative;
+display: inline-block;
+    width: 320px;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.116);
+    float:right;
+margin-right: 20%;}
+
+.characters{ background-image: linear-gradient(rgba(13, 83, 163, 0.836), rgba(0, 0, 0, 0.65)), url(https://sm.ign.com/ign_pt/gallery/a/avatar-seq/avatar-sequels-concept-art-revealed_bqn7.jpg);
+    background-size: cover;
+    background-position: center; 
+ ;}
+
+.Jake img {
+    position: relative;
+    width: 250px;
+    height:350px
+}
+
+    .Neytiri img {
+        position: relative;
+       
+        width: 250px;
+        height:359px}
+        
+
+        .Kiri img {
+            position: relative;
+          
+            width: 250px;
+            height:250px}
+            .Neteyam {
+                position: relative;
+                
+                width: 250px;
+                height:350px
+                }
+              
+ 
+        .content {  
+            background-image: linear-gradient(rgba(13, 83, 163, 0.596), rgba(0, 0, 0, 0.65)), url(https://www.nit.pt/wp-content/uploads/2022/12/73f652c3ecd108acaf60aa84eced5dc4.jpg);
+            background-size: cover;
+            background-position: center;}
+                
+            
